@@ -1,0 +1,4 @@
+.env
+py311/
+__pycache__
+
