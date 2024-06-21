@@ -17,6 +17,11 @@ Run the main script to start interacting with the Coder Agent:
 python agent.py
 ```
 
+## Agents
+The codebase includes the following agents:
+- **Coder Agent**: Uses tools like `ShellTool`, `create_directory`, `find_file`, `create_file`, `update_file`, and `tavily_web_search`.
+- **Reviewer Agent**: Uses tools like `get_files_in_directory`, `find_file`, `read_file`, and `tavily_web_search`.
+
 ## Tools
 The agent uses a variety of tools to perform its tasks:
 - **ShellTool**: Executes shell commands.
